@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Restatement}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Assumptions}{3}{section.2}%
+\contentsline {section}{\numberline {3}Notations}{4}{section.3}%
+\contentsline {section}{\numberline {4}Model 1}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}SubModel 1}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}SubModel 2}{5}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Model 2(If need)}{6}{section.5}%
+\contentsline {section}{\numberline {6}Results Discussion}{9}{section.6}%
+\contentsline {section}{\numberline {7}Model Evaluation}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Strengths}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Weaknesses}{10}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusion}{11}{section.8}%
+\contentsline {section}{References}{11}{section.8}%
+\contentsline {section}{\numberline {A}Filename.py}{12}{appendix.a.A}%
+\contentsline {section}{\numberline {B}Filename.m}{12}{appendix.a.B}%

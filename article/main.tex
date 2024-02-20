@@ -1,0 +1,170 @@
+% This template is prepared by UM-SJTU JI SSTIA
+% October, 2023
+
+% Environment Setup (Need to be edited only when adding usepackages)
+\documentclass{Setup}
+
+
+% Head Setting (Change the problem and the team number)
+\lhead{Problem A}
+\chead{The University Physics Competition, Team 111}
+
+
+\begin{document}
+
+
+% Title Setting (Change the title, team number and the problem)
+\title{Title} 
+\author{Team 111, Problem A}
+\date{\today} 
+\maketitle 
+\thispagestyle{fancy}
+
+
+% Abstract 
+\begin{center}
+  \large\textbf{Abstract}
+\end{center}
+
+\lipsum[1] % Delete it to write your abstract text
+
+\textbf{Key Words: A, B, C} % Change your key words
+
+
+% Contents
+\newpage
+\tableofcontents
+\newpage
+
+
+% Introduction
+\section{Introduction}
+\subsection{Background}
+\lipsum[1] % Delete it to write the background of the problem
+
+\subsection{Problem Restatement}
+\lipsum[1] % Delete it to write the restatement of the problem
+
+
+% Assumptions
+\section{Assumptions}
+Assumptions are acknowledged when they are made throughout the paper, but a list
+of key assumptions is also provided here.
+
+\begin{itemize} % List your assumptions here
+    \item Assumption A
+    \item Assumption B
+    \item Assumption C
+    \item Assumption D
+\end{itemize}
+
+% Notations
+\newpage
+\section{Notations}
+
+\begin{table}[h!] % List your notations here
+\begin{tabularx}{\textwidth}{cc}
+\toprule
+\textbf{Symbols} & \textbf{Description}\\
+\toprule
+  $v_{\perp}$ & Component of asteroid's velocity in direction perpendicular to the Earth \\
+  $\rho$ & something \\
+  $c$ & something \\
+\bottomrule
+\label{Notation Table}
+\end{tabularx}
+\end{table}
+
+Here the main notations are defined while their specific values will be discussed and given later.
+
+
+% Models: the core part of your project(Don't just use Model1, Model2 as the title of the models)
+\section{Model 1}
+\subsection{SubModel 1}
+    % insert a figure
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1.0\textwidth]{Figures/SSTIA.jpg}
+        \caption{SSTIA} \label{SSTIA}
+    \end{figure}
+    
+    \lipsum[1-4] % Delete it to write your content
+    
+\subsection{SubModel 2}
+\lipsum[1-4] % Delete it to write your content
+
+\section{Model 2(If need)}
+\lipsum[1-7] % Delete it to write your content
+
+\newpage 
+% Sometimes the former page is completed and the figure is important. You can put it on one new page.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Figures/Nice Image.png}
+    \caption{Nice Image} \label{Nice Image}
+\end{figure}
+
+\newpage
+\lipsum[1-4] % Delete it to write your content
+
+\section{Results Discussion}
+\lipsum[1-3] % Delete it to write your content
+
+
+% Model Evaluation: analyze the strengths and weaknesses of your model 
+\section{Model Evaluation}
+\subsection{Strengths}
+\begin{enumerate}
+    \item Strength 1
+    \item Strength 2
+\end{enumerate}
+\subsection{Weaknesses}
+\begin{enumerate}
+    \item Weakness 1
+    \item Weakness 2
+\end{enumerate}
+
+
+% Conclusion of the models you made
+\section{Conclusion}
+\lipsum[1] % Delete it to write your conclusion
+
+
+% References
+\addcontentsline{toc}{section}{References} 
+\begin{thebibliography}{99} % List your references here
+  \bibitem{ref1} T.J. Ahrens and A.W. Harris. Deflection and fragmentation of near-earth asteroids. \textit{Nature}, 360(6403):429–433, 1992.
+  \bibitem{ref2} Josh Handal, Justyna Surowiec, Michael Buckley (2022) \textit{NASA’s DART Mission Hits Asteroid in First-Ever Planetary Defense Test}, NASA. 
+  \bibitem{ref3} \url{https://en.wikipedia.org/wiki/Atmosphere_of_Earth}
+\end{thebibliography}
+
+
+% List the programming source files of your model and remember to name each file properly.
+\newpage
+\begin{appendices}
+  \section{Filename.py}
+
+  Short Description about the Codes.
+
+  \begin{lstlisting}[language=Python]
+    # This is a sample for Python
+    import numpy as np
+    import math
+    val=50*np.exp(-5)
+  \end{lstlisting}
+ 
+  
+  \section{Filename.m}
+
+  Short Description about the Codes.
+
+  \begin{lstlisting}[language=Matlab]
+    % This is a sample for Matlab
+    [x,y,z] = meshgrid(linspace(-1.3,1.3));
+    val=(x.^2+(9/4)*y.^2+z.^2-1).^3-x.^2.*z.^3-(9/80)*y.^2.*z.^3;
+    isosurface(x,y,z,val,0)
+  \end{lstlisting}
+\end{appendices}
+
+
+\end{document}
